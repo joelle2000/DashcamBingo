@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="CSS/general.css">
+     <link rel="stylesheet" href="CSS/home.css">
+
+    <title>Dashcam Bingo</title>
+</head>
+<body id="homePage">
+    <header id="top">
+        <nav>
+            <a href="index.html">
+                <div id="logo"></div>
+            </a>
+            <!--hamburgermenu-->
+            <button id="open-nav-menu">Menu &#x2630;</button>
+            <div class="wrapper">
+                <ul>
+                  <li id="hide-close-nav-menu">
+                    <button id="close-nav-menu">&#x2716;</button>
+                  </li>
+                  <li><a href="#top" class="menuItemText">Home</a></li>
+                  <li><a href="bingo.html" class="menuItemText">Speel mee</a></li> <!--verwijzen naar pagina om bingo te spelen-->
+                  <li><a href="#submissions" class="menuItemText">Deelnemen</a></li>
+                  <li><a href="#gallery" class="menuItemText">Gallerij</a></li>
+                  <li><a href="#about" class="menuItemText">Over ons</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--een banner en een cta om het spel te spelen-->
+        <section id="banner"> 
+            <div id="bannerText">
+                <h1>DASHCAM BINGO</h1>
+                <p>Waarom alleen dashcamvideo&#39;s kijken als je er ook een spel van kunt maken? 
+                    Speel mee met Dashcam Bingo: Spot chaos, kruis vakjes aan, en vier de ondergang van 
+                    verkeersfatsoen!</p>
+                <a href="bingo.html" class="btnPrimary">Speel mee</a> <!--functie schrijven om op de juiste pagina te komen-->
+            </div>
+            <img id="bannerImg" src="assets/pexels-grizzlybear-399636.jpg" alt="stoplicht">
+        </section>
+
+        <!--uitleggen waar ze hun bingokaarten naartoe kunnen sturen-->
+        <section id="submissions">
+            <div id="submissionsText">
+                <h2>INZENDINGEN</h2>
+                <p>Heb je een volle bingokaart of een briljant nieuwe bedacht? Of het nu gaat om 
+                    een perfect uitgedachte bingo of een kaart vol persoonlijke verkeersergernissen, 
+                    wij zijn benieuwd. Deel jouw creatie op BlueSky! Wie weet verschijnt jouw kaart 
+                    op de website en spelen andere straks met jouw kaart.</p>
+                    <a href="https://bsky.app/" target="_blank" class="btnPrimary">Bluesky</a>
+                </div>
+                <div id="darkGreenBg">
+                    <img id="submissionsImg" src="assets/pexels-artempodrez-5025659.jpg" alt="snelweg">
+                </div>
+        </section>
+
+        <!--Gallerij van alle bingokaarten-->
+        <section id="gallery" class="gallery-section"> 
+            <div id="madeBy">
+                <h2></h2>
+            </div>
+            <img src="" alt="">
+
+            <div class="thumbnails">
+            </div>
+        </section>
+
+        <!--leuke afbeelding bij de tekst toevoegen-->
+        <section id="about">
+            <img id="aboutImg" src="assets/pexels-dudumatik-1727004.jpg" alt="verhuiswagen">
+            <div id="aboutText">
+                <h2>OVER DE WEBSITE</h2><!--stukje tekst over wat het inhoud-->
+                <p>Af en toe keek ik naar de dashcam bingo's, omdat ik mijn eigen verkeersfrustraties 
+                    herkende. Het leek me leuk om op een makkelijke manier mee te doen. Als front-end/ 
+                    web developer wilde ik mijn skills oefenen, daarvoor is deze website de perfecte 
+                    uitdaging. Ik blijf leren en wil de website nog meer verbeteren, maar ik besloot 
+                    het alvast online te zetten. De website zal nooit echt "af" zijn, maar ik hoop dat 
+                    jullie ervan genieten en veel bingo's behalen!</p>
+            </div>
+        </section>
+
+        <!--nog een cta om bingo te gaan spelen-->
+        <section id="filler">
+            <a href="bingo.html" class="btnSecondary">Speel mee</a> 
+        </section>
+        <section id="backToTop">
+            <a href="#top" class="btnSecondary" id="btnround">&#11165;</a>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footerText">
+            <p>2025</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
