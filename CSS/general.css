@@ -51,7 +51,7 @@ nav{
     padding: 0 120px;
 }
 #logo{
-    background-image: url(/assets/logoWhite-long.png);
+    background-image: url(./assets/logoWhite-long.png);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
