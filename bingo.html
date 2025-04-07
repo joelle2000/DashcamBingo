@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/bingo.css">
+    <link rel="stylesheet" href="CSS/general.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+    <title>Dashcam Bingo</title>
+</head>
+<body id="bingoPage">
+    <header id="top">
+        <nav>
+            <a href="index.html">
+                <div id="logo"></div>
+            </a>
+            <!--hamburgermenu-->
+            <button id="open-nav-menu">Menu &#x2630;</button>
+            <div class="wrapper">
+                <ul>
+                  <li id="hide-close-nav-menu">
+                    <button id="close-nav-menu">&#x2716;</button>
+                  </li>
+                  <li><a href="index.html" class="menuItemText">Home</a></li>
+                  <li><a href="bingo.html" class="menuItemText">Speel mee</a></li> <!--verwijzen naar pagina om bingo te spelen-->
+                  <li><a href="index.html#submissions" class="menuItemText">Deelnemen</a></li>
+                  <li><a href="index.html#gallery" class="menuItemText">Gallerij</a></li>
+                  <li><a href="index.html#about" class="menuItemText">Over ons</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="start">
+            <div id="startPadding">
+                <h2>Speel met een willekeurige bingokaart</h2>
+                <div>
+                    <a href="#bingokaart" id="random" class="btnPrimary">Spelen</a>
+                </div>
+            </div>
+        </section>
+        <div id="bingokaart">
+            <div id="center">
+                <table id="bingoRooster">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footerText">
+            <p>2025</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
