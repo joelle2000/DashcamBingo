@@ -2,7 +2,7 @@
     {
       "title": "BingoKaartDoor_damianvries",
       "author": "damianvries",
-      "src": "/BingoKaarten/origineel/bingokaartDamianvries.jpg",
+      "src": "BingoKaarten/origineel/bingokaartDamianvries.jpg",
       "srcWS": "/BingoKaarten/whitespace/bingokaartDamianvries.jpg",
       "alt": "Bingo kaart van damianvries",
       "width": "430px",
@@ -13,7 +13,7 @@
     {
       "title": "BingoKaartDoor_DutchKarting",
       "author": "DutchKarting",
-      "src": "/BingoKaarten/origineel/bingokaartDutchkarting.jpg",
+      "src": "BingoKaarten/origineel/bingokaartDutchkarting.jpg",
       "srcWS": "/BingoKaarten/whitespace/bingokaartDutchkarting.jpg",
       "alt": "Bingo kaart van DutchKarting",
       "width": "410px",
