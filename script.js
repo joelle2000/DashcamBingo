@@ -28,7 +28,7 @@ function menuHandler(){
 
 function galleryHandler(){
     return new Promise(resolve =>{
-        fetch("/.bingokaarten.json")
+        fetch("./bingokaarten.json")
         .then(response => response.json())
         .then(data => {
             galleryImages.push(...data)
