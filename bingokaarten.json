@@ -79,8 +79,8 @@
     {
       "title": "BingoKaartDoor_Thredson",
       "author": "Thredson",
-      "src": "/BingoKaarten/origineel/bingokaartThredson.jpg",
-      "srcWS": "/BingoKaarten/whitespace/bingokaartThredson.jpg",
+      "src": "BingoKaarten/origineel/bingokaartThredson.jpg",
+      "srcWS": "BingoKaarten/whitespace/bingokaartThredson.jpg",
       "alt": "Bingo kaart van Thredson",
       "width": "390px",
       "height": "390px",
