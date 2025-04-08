@@ -75,5 +75,16 @@
       "height": "470px",
       "Mwidth": "240px",
       "Mheight": "240px"
+    },
+    {
+      "title": "BingoKaartDoor_Thredson",
+      "author": "Thredson",
+      "src": "/BingoKaarten/origineel/bingokaartThredson.jpg",
+      "srcWS": "/BingoKaarten/whitespace/bingokaartThredson.jpg",
+      "alt": "Bingo kaart van Theredson",
+      "width": "390px",
+      "height": "390px",
+      "Mwidth": "200px",
+      "Mheight": "200px"
     }
 ]
